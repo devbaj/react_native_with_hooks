@@ -16,6 +16,7 @@ import Touchables from './Touchables';
 import ScrollingDown from './Scrolling';
 import FlatListBasics from './FlatListBasics';
 import SectionListBasics from './SectionListBasics';
+import Networking from './Networking';
 
 export default function App() {
   return (
@@ -36,6 +37,7 @@ export default function App() {
       {/* <ScrollingDown /> */}
       {/* <FlatListBasics /> */}
       {/* <SectionListBasics /> */}
+      <Networking />
     </View>
   );
 }
